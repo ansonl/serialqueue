@@ -1,7 +1,7 @@
 # Serial Queue
 [![GoDoc](https://godoc.org/github.com/ansonl/serialqueue?status.svg)](https://godoc.org/github.com/ansonl/serialqueue)
 
-> Basically a blocking background thread to for your deterministic sequential operation problems.
+> A blocking background thread for deterministic sequential operation.
 
 A Serial Queue implementation for Go.
 Tasks are enqueued in desired order of execution. Tasks are dequeued sequentially and run in a goroutine. 
