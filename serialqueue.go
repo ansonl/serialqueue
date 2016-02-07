@@ -4,7 +4,7 @@ package serialqueue
 
 //New returns a new serial queue.
 //Enqueue items like queueObj <- func() {doWork(data)}
-func New() (chan func()) {
+func New() chan func() {
 	//create channel of type function
 	var queue = make(chan func())
 
